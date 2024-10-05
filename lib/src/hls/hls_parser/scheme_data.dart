@@ -2,10 +2,6 @@ import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
 
-import 'dart:ui';
-
-import 'package:flutter/foundation.dart';
-
 class SchemeData {
   SchemeData({
 //    @required this.uuid,
@@ -53,7 +49,7 @@ class SchemeData {
   }
 
   @override
-  int get hashCode => hashValues(
+  int get hashCode => Object.hash(
       /*uuid, */
       licenseServerUrl,
       mimeType,

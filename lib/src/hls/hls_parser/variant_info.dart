@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'dart:ui';
-import 'package:flutter/foundation.dart';
-
 class VariantInfo {
   VariantInfo({
     this.bitrate,
@@ -44,6 +41,6 @@ class VariantInfo {
   }
 
   @override
-  int get hashCode => hashValues(
+  int get hashCode => Object.hash(
       bitrate, videoGroupId, audioGroupId, subtitleGroupId, captionGroupId);
 }
