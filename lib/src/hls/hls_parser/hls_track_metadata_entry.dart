@@ -4,6 +4,8 @@ import 'package:flutter/rendering.dart';
 
 import 'dart:ui';
 
+import 'package:flutter/foundation.dart';
+
 class HlsTrackMetadataEntry {
   HlsTrackMetadataEntry({this.groupId, this.name, this.variantInfos});
 

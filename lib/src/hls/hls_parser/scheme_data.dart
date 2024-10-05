@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 
 import 'dart:ui';
 
+import 'package:flutter/foundation.dart';
+
 class SchemeData {
   SchemeData({
 //    @required this.uuid,

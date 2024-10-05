@@ -3,6 +3,8 @@ import 'package:flutter/cupertino.dart';
 
 import 'dart:ui';
 
+import 'package:flutter/foundation.dart';
+
 import 'scheme_data.dart';
 
 class DrmInitData {
