@@ -1,6 +1,6 @@
 import 'package:collection/collection.dart';
 import 'package:flutter/cupertino.dart';
-import 'dart:ui';
+import 'package:flutter_web_plugins/dart:ui';
 
 import 'scheme_data.dart';
 

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'dart:ui';
+import 'package:flutter_web_plugins/dart:ui';
 
 class VariantInfo {
   VariantInfo({
